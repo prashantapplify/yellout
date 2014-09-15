@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff" >
+
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/header">
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical"
+            android:gravity="left">
+            <TextView 
+                android:id="@+id/contact_back"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="BACK"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+             <TextView 
+                android:id="@+id/contact_contacts"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CONTACTS"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="right"
+            android:orientation="vertical">
+            <TextView 
+                android:id="@+id/contact_send"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="SEND"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView> -->
+        <ScrollView 
+            android:id="@+id/number_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/linear_1"
+                    android:layout_width="match_parent" 
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#96ceb4"
+                        android:layout_weight="1">
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="5">
+                            <TextView 
+                                android:id="@+id/top_t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ROSS MARK"
+                                android:textColor="#fff"
+                                android:gravity="center"
+                                
+                                />
+                            
+                        </LinearLayout>
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <ImageView 
+                                android:id="@+id/image_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_addprofile"
+                                android:layout_gravity="center"
+                                />
+                            
+                        </LinearLayout>
+                    </LinearLayout>
+                     <View 
+                    android:layout_height="match_parent"
+                    android:layout_width="1dp"
+                    android:background="#fff"/>
+                    <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#ffcc5c"
+                        android:layout_weight="1">
+                        
+                                <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="5">
+                            <TextView 
+                                 android:id="@+id/top_t2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="REMMY"
+                                android:textColor="#fff"
+                                android:gravity="center"
+                                
+                                />
+                            
+                        </LinearLayout>
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <ImageView 
+                                android:id="@+id/image_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_addprofile"
+                                android:layout_gravity="center"
+                                />
+                            
+                        </LinearLayout>
+                        
+                    </LinearLayout>
+                    
+                </LinearLayout>
+                <View 
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#fff"/>
+                <LinearLayout
+                  android:id="@+id/linear_2"
+                    
+                    android:layout_width="match_parent" 
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#ff5c73"
+                        android:layout_weight="1">
+                        
+                        
+                            <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="5">
+                            <TextView 
+                                 android:id="@+id/top_t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="SIQI FIRED"
+                                android:textColor="#fff"
+                                android:gravity="center"
+                                
+                                />
+                            
+                        </LinearLayout>
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <ImageView 
+                                android:id="@+id/image_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_addprofile"
+                                android:layout_gravity="center"
+                                />
+                            
+                        </LinearLayout>
+                         
+                    </LinearLayout>
+                     <View 
+                    android:layout_height="match_parent"
+                    android:layout_width="1dp"
+                    android:background="#fff"/>
+                    <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#4b7bbe"
+                        android:layout_weight="1">
+                        
+                        
+                        
+                              <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="5">
+                            <TextView 
+                                 android:id="@+id/top_t4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="JUSTIN"
+                                android:textColor="#fff"
+                                android:gravity="center"
+                                
+                                />
+                            
+                        </LinearLayout>
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <ImageView 
+                                android:id="@+id/image_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_addprofile"
+                                android:layout_gravity="center"
+                                />
+                            
+                        </LinearLayout>
+                        
+                    </LinearLayout>
+                    
+                </LinearLayout>
+                 <View 
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#fff"/>
+                <LinearLayout
+                     android:id="@+id/linear_3"
+                    android:layout_width="match_parent" 
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                   >
+                    <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#5ebdf4"
+                        android:layout_weight="1">
+                          <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="5">
+                            <TextView 
+                                 android:id="@+id/top_t5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="RUSTIN HOPPE"
+                                android:textColor="#fff"
+                                android:gravity="center"
+                                
+                                />
+                            
+                        </LinearLayout>
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <ImageView 
+                                android:id="@+id/image_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_addprofile"
+                                android:layout_gravity="center"
+                                />
+                            
+                        </LinearLayout>
+                         
+                    </LinearLayout>
+                     <View 
+                    android:layout_height="match_parent"
+                    android:layout_width="1dp"
+                    android:background="#fff"/>
+                    <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#ff6b57"
+                        android:layout_weight="1">
+                          <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="5">
+                            <TextView 
+                                 android:id="@+id/top_t6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="JENNY MARTIN"
+                                android:textColor="#fff"
+                                android:gravity="center"
+                                
+                                />
+                            
+                        </LinearLayout>
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <ImageView 
+                                android:id="@+id/image_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_addprofile"
+                                android:layout_gravity="center"
+                                />
+                            
+                        </LinearLayout>
+                        
+                    </LinearLayout>
+                    
+                </LinearLayout>
+                 <View 
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#fff"/>
+                 <LinearLayout
+                      android:id="@+id/linear_4"
+                    android:layout_width="match_parent" 
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#ff884d"
+                        android:layout_weight="1">
+                          <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="5">
+                            <TextView 
+                                 android:id="@+id/top_t7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="RUSTIN HOPPE"
+                                android:textColor="#fff"
+                                android:gravity="center"
+                                
+                                />
+                            
+                        </LinearLayout>
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <ImageView 
+                                android:id="@+id/image_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_addprofile"
+                                android:layout_gravity="center"
+                                />
+                            
+                        </LinearLayout>
+                         
+                    </LinearLayout>
+                     <View 
+                    android:layout_height="match_parent"
+                    android:layout_width="1dp"
+                    android:background="#fff"/>
+                    <LinearLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#5badaf"
+                        android:layout_weight="1">
+                          <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="5">
+                            <TextView 
+                                 android:id="@+id/top_t8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ALICIA"
+                                android:textColor="#fff"
+                                android:gravity="center"
+                                
+                                />
+                            
+                        </LinearLayout>
+                        <LinearLayout 
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <ImageView 
+                                android:id="@+id/image_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_addprofile"
+                                android:layout_gravity="center"
+                               
+                                />
+                            
+                        </LinearLayout>
+                        
+                    </LinearLayout>
+                    
+                </LinearLayout>
+            </LinearLayout>
+            
+        </ScrollView>
+       
+</LinearLayout>

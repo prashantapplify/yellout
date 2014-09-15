@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffc964"
+     >
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center"
+	    android:layout_weight="1"
+	    android:orientation="vertical" >
+		
+        <TextView
+            android:id="@+id/Entername_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffc964"
+            android:text="ENTER YOUR NAME AND\nYOUR IMAGE TO REGISTER\nYOUR SELF ON YELLOUT"
+            android:textColor="#FFFFFFFF" 
+            android:textSize="20dp"
+            android:gravity="center"/>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_height="match_parent" 
+	    android:layout_width="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1">
+	
+    	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1">
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:background="#ff5c73"
+		        android:layout_weight="2"
+		        android:gravity="center"
+		      
+		        >
+         <ImageView
+            android:id="@+id/entername_profilepic"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_profile" 
+            android:onClick="gallery"
+            />
+           </LinearLayout>
+	<View 
+	    android:layout_height="match_parent"
+	    android:layout_width="1dp"
+	    android:background="#FFFFFFFF"/>
+	<LinearLayout 
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1">
+	    
+	
+       <EditText
+           android:id="@+id/entername"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+          
+           android:background="#ff5c73"
+           android:ems="10"
+           android:hint="Enter your Name"
+           android:textColor="#FFFFFFFF" 
+           android:textSize="20dp"
+         
+           android:padding="10dp"
+           android:singleLine="true"
+           android:inputType="textCapCharacters">
+		   
+		</EditText>
+		</LinearLayout>
+		</LinearLayout>
+		<View 
+	    android:layout_height="1dp"
+	    android:layout_width="match_parent"
+	    android:background="#FFFFFFFF"/>
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1"  >
+		    
+		
+		 <Button
+		    android:id="@+id/entername_cancel"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:text="CANCEL"
+		     android:layout_weight="1"
+		     android:background="#4b7bbe"
+       		 android:textColor="#FFFFFFFF"
+       		 android:textSize="20sp"
+		     />
+		<View 
+	    android:layout_height="match_parent"
+	    android:layout_width="1dp"
+	    android:background="#FFFFFFFF"/>
+		<Button
+		    android:id="@+id/entername_go"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:text="GO" 
+		    android:layout_weight="1"
+		    android:background="#5ebdf4"
+       		 android:textColor="#FFFFFFFF"
+       		 android:textSize="20sp">
+		    
+		</Button>
+		
+		</LinearLayout>
+		</LinearLayout>
+    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal" 
+		    android:layout_gravity="top"
+		    android:layout_weight="1">
+
+       
+      
+		</LinearLayout>
+   
+    	
+    </LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yellout"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.example.yellout.Splash"
+            android:label="@string/title_activity_splash"
+             android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity
+            android:name="com.example.yellout.Startpage"
+            android:label="@string/title_activity_startpage"
+             android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.example.yellout.EnterName"
+            android:label="@string/title_activity_enter_name"
+             android:screenOrientation="portrait"
+             android:windowSoftInputMode="stateVisible"
+            android:theme="@android:style/Theme.NoTitleBar" 
+           >
+        </activity>
+        <activity
+            android:name="com.example.yellout.EnterNumber"
+            android:label="@string/title_activity_enter_number"
+             android:screenOrientation="portrait"
+             android:windowSoftInputMode="stateVisible"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+       
+        <activity android:name="com.example.yellout.Home"
+             android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" ></activity>
+
+               
+       
+        <activity
+            android:name="com.example.yellout.Contacts"
+             android:screenOrientation="portrait"
+            android:label="@string/title_activity_contacts" >
+        </activity>
+        <activity
+            android:name="com.example.yellout.Verification"
+            android:label="@string/title_activity_verification" 
+             android:screenOrientation="portrait"
+             android:windowSoftInputMode="stateVisible"
+             android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name="com.example.yellout.Custom_Dialog"
+             android:label="@string/title_activity_verification" 
+             android:screenOrientation="portrait"
+             android:windowSoftInputMode="adjustNothing"
+             android:theme="@android:style/Theme.Dialog"></activity>
+    </application>
+
+</manifest>

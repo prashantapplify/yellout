@@ -1,0 +1,229 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+   <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:src="@drawable/header"
+		android:background="#ffc964"       
+       
+       >
+		     <TextView 
+		         android:id="@+id/verify_cancel"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:text="CANCEL"
+		         android:textSize="20sp"
+		         android:textColor="#000"/>
+		 </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center"
+	    android:layout_weight="2"
+	    android:orientation="vertical" 
+	    android:background="#ffc964">
+		
+        <TextView
+            android:id="@+id/vreify_enterpin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffc964"
+            android:text="ENTER PIN"
+            android:textColor="#FFFFFFFF" 
+            android:textSize="20sp"
+            android:gravity="center"/>
+	</LinearLayout>
+
+	
+
+	<LinearLayout
+	    android:layout_height="match_parent" 
+	    android:layout_width="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1">
+	
+    	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1"
+		    android:background="#ff5c73"> 
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1">
+		    <EditText
+	    android:id="@+id/verifi_1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:ems="10"
+	    android:maxLength="1" 
+	     android:background="#ff5c73"
+	     android:inputType="phone"
+	     android:textColor="#FFFFFFFF"
+	     android:textSize="20sp"
+	     android:gravity="center">
+
+	    <requestFocus />
+	</EditText>
+		    
+		    </LinearLayout>
+		    <View 
+	    android:layout_height="match_parent"
+	    android:layout_width="1dp"
+	    android:background="#FFFFFFFF"/>
+		    	    <LinearLayout 
+		        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1">
+		    <EditText
+	    android:id="@+id/verifi_2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:ems="10"
+	    android:maxLength="1"
+	     android:background="#ff5c73" 
+	     android:inputType="phone"
+	     android:textColor="#FFFFFFFF"
+	     android:textSize="20sp"
+	     android:gravity="center">
+
+	    
+	</EditText>
+		    
+		    </LinearLayout>
+		    <View 
+	    android:layout_height="match_parent"
+	    android:layout_width="1dp"
+	    android:background="#FFFFFFFF"/>
+		    	    <LinearLayout 
+		        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1">
+		    <EditText
+	    android:id="@+id/verifi_3"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:ems="10"
+	    android:maxLength="1"
+	     android:background="#ff5c73" 
+	     android:inputType="phone"
+	     android:textColor="#FFFFFFFF"
+	     android:textSize="20sp"
+	     android:gravity="center">
+
+	   
+	</EditText>
+		    
+		    </LinearLayout>
+		    <View 
+	    android:layout_height="match_parent"
+	    android:layout_width="1dp"
+	    android:background="#FFFFFFFF"/>
+		    	    <LinearLayout 
+		        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1">
+		    <EditText
+	    android:id="@+id/verifi_4"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:ems="10" 
+	    android:maxLength="1"
+	     android:background="#ff5c73"
+	     android:inputType="phone"
+	     android:textColor="#FFFFFFFF"
+	     android:textSize="20sp"
+	     android:gravity="center">
+
+	   
+	</EditText>
+		    
+		    </LinearLayout>
+		    
+		</LinearLayout>
+		
+		<View 
+	    android:layout_height="1dp"
+	    android:layout_width="match_parent"
+	    android:background="#FFFFFFFF"/>
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1"
+		    android:background="#4b7bbe">
+
+			<Button
+			    android:id="@+id/vreify_confirm"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:text="CONFIRM" 
+			    android:textSize="20sp"
+			    android:textColor="#FFFFFFFF"
+			    android:gravity="center"
+			    android:background="#4b7bbe"/>
+
+		</LinearLayout>
+		<View 
+	    android:layout_height="1dp"
+	    android:layout_width="match_parent"
+	    android:background="#FFF"/>
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1"
+		    android:background="#68c49f">
+
+			<Button
+			    android:id="@+id/verfiy_resend"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:text="RESEND"
+			    android:textSize="20sp"
+			    android:textColor="#FFFFFFFF"
+			    android:gravity="center" 
+			     android:background="#68c49f"/>
+
+		</LinearLayout>
+		<LinearLayout 
+		    android:layout_height="match_parent"
+		    android:layout_width="match_parent"
+		    android:layout_weight="1"
+		    android:background="#ffc964">
+		    
+		</LinearLayout>
+		</LinearLayout>
+		
+    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal" 
+		    android:layout_gravity="top"
+		    android:layout_weight="2"
+		    android:background="#ffc964">
+		</LinearLayout>
+    </LinearLayout>

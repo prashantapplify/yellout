@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffc964" >
+
+   
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center"
+	    android:layout_weight="1"
+	    android:orientation="vertical" >
+		
+        <TextView
+            android:id="@+id/Enterno._msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffc964"
+            android:text="ENTER YOUR PHONE\nNUMBER TO FIND YOUR\nFRIENDS ALLOW THEM TO FIND YOU"
+            android:textColor="#FFFFFFFF" 
+            android:textSize="20dp"
+            android:gravity="center"/>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_height="match_parent" 
+	    android:layout_width="match_parent"
+	    android:orientation="vertical"
+	    android:layout_weight="1">
+	
+    	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1">
+         
+           
+           
+            
+        <TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:text="+91"
+	    android:textSize="20dp"
+	    android:layout_weight="2" 
+	    android:gravity="center"
+	    android:background="#ff884d"
+	    android:textColor="#FFFFFFFF"/>   
+	<View 
+	    android:layout_height="match_parent"
+	    android:layout_width="1dp"
+	    android:background="#FFFFFFFF"/>
+       <EditText
+           android:id="@+id/enterphone"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:background="#ff884d"
+           android:ems="10"
+           android:hint="Enter your Phone No."
+           android:textColor="#FFFFFFFF" 
+           android:textSize="20dp"
+           android:inputType="phone"
+           android:maxLength="12"
+           android:padding="10dp">
+		   
+		</EditText>
+		</LinearLayout>
+		<View 
+	    android:layout_height="1dp"
+	    android:layout_width="match_parent"
+	    android:background="#FFFFFFFF"/>
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal"
+		    android:layout_gravity="top" 
+		    android:layout_weight="1"  >
+		    
+		
+		 <Button
+		    android:id="@+id/enternumber_cancel"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:text="CANCEL"
+		     android:layout_weight="1"
+		     android:background="#4b7bbe"
+       		 android:textColor="#FFFFFFFF"
+       		 android:textSize="20sp"
+		     />
+		<View 
+	    android:layout_height="match_parent"
+	    android:layout_width="1dp"
+	    android:background="#FFFFFFFF"/>
+		<Button
+		    android:id="@+id/enternumber_go"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:text="GO" 
+		    android:layout_weight="1"
+		    android:background="#54acd2"
+       		 android:textColor="#FFFFFFFF"
+       		 android:textSize="20sp"/>
+		
+		</LinearLayout>
+		</LinearLayout>
+    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal" 
+		    android:layout_gravity="top"
+		    android:layout_weight="1">
+
+       
+      
+		</LinearLayout>
+   
+    	
+    </LinearLayout>

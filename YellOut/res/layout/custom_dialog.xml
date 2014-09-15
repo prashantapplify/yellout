@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:id="@+id/custonDialog_main_lay"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+         <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#fff">
+         <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="YOUR MESSAGE\nHAS BEEN SEND."
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout> 
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+         <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#4b7bbe">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="OK"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="#5ebdf4">
+         <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="CONVERSATION"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

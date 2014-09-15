@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+android:layout_height="match_parent"
+            
+            android:background="@drawable/ic_splash" />
+
+ </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:layout_weight="7"
+            android:orientation="vertical" >
+            <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+           android:layout_height="match_parent"
+            android:text="START" 
+           
+            android:background="#00a885"
+        android:textColor="#FFFFFFFF"
+        android:onClick="move"
+        android:textSize="20sp"/>
+            
+       
+
+        
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
